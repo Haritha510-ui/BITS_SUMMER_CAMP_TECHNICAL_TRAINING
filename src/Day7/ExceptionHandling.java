@@ -1,0 +1,15 @@
+package Day7;
+
+import java.util.Scanner;
+
+public class ExceptionHandling {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        try {
+            System.out.println(9/0);
+        } catch(Exception e) {
+            System.out.println("There is Arithematic Exception");
+        }
+        sc.close();
+    }
+}
